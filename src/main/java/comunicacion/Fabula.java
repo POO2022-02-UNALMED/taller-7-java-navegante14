@@ -14,7 +14,7 @@ public class Fabula extends Escrito{
 	//metodos
         @Override
 	public int palabrasTotales(int parametro) {
-		return this.getPaginas()*1;
+		return this.getPaginas()*parametro*1;
 	}
         @Override
 	public String interpretacion() {
@@ -26,7 +26,7 @@ public class Fabula extends Escrito{
                         +this.getTitulo()+"\n"
                         +this.getAutor()+"\n"
                         +this.getPaginas()+"\n"
-                        +this.getEnsenanza()+"\n";
+                        +this.getEnsenanza();
 	}
     //getters y setters
     public String getEnsenanza() {

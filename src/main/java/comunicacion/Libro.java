@@ -24,6 +24,7 @@ public class Libro extends Escrito {
 	public String interpretacion() {
 		return this.getInterpretacion();
 	}
+        @Override
 	public String toString() {
 		return this.getOrigen()+"\n"
                         +this.getTitulo()+"\n"
@@ -31,7 +32,7 @@ public class Libro extends Escrito {
                         +this.getPaginas()+"\n"
                         +this.getCo_autor()+"\n"
                         +this.getEditorial()+"\n"
-                        +this.getEdicion()+"\n";
+                        +this.getEdicion();
 	}
         //getters y setters
 

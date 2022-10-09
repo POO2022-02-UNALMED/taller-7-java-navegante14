@@ -32,13 +32,14 @@ public class Periodico extends Escrito{
                         +this.getAutor()+"\n"
                         +this.getPaginas()+"\n"
                         +this.getFecha()+"\n"
-                        +this.getPrimicia()+"\n";
+                        +this.getPrimicia();
     
-    //getters y setters
+   
     
    
     
 }
+     //getters y setters
 
     public String getFecha() {
         return fecha;
